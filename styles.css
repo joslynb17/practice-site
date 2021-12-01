@@ -1,0 +1,63 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  color: rgb(147, 23, 169);
+  background-color: rgb(236, 179, 249);
+}
+
+li {
+  font-size: 15px;
+  font-style: italic;
+}
+
+a {
+  color: rgb(44, 127, 43);
+}
+
+/* This style changes the link hover thing */
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+a:visited {
+  color: wheat;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.spanTagFun {
+  color: thistle;
+}
+
+.home-bg {
+  background-image: url("images/byu.png");
+  /* background-position: bottom right;
+  background-repeat: repeat; */
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.box1 {
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: rgb(95, 30, 118); */
+  border: 3px solid rgb(95, 30, 118);
+}
+
+.box2 {
+  padding: 20px;
+}
+
+.box3 {
+  margin: 50px;
+}
